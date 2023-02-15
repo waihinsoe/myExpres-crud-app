@@ -28,7 +28,7 @@ app.get("/api", (req, res) => {
   res.send(html);
 });
 
-app.get("/users", (req, res) => {
+app.get("/api/users", (req, res) => {
   res.send({ message: "This is user" });
 });
 
